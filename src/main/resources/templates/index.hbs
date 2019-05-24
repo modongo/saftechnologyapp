@@ -1,0 +1,15 @@
+{{#partial "content"}}
+
+    <h3 name="/categories/{{id}}"> List of {{name}} Sections</h3>
+
+    {{#if tasks}}
+        {{#each tasks }}
+         <p>Department:</p>
+         <p>{{ description }} <a href="/tasks/{{categoryid}}">read more...</a></p>
+        {{/each}}
+    {{else}}
+     <p>No Section Added!</p>
+    {{/if}}
+{{/partial}}
+
+{{> layout.hbs}}
