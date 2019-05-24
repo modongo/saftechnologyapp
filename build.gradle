@@ -21,6 +21,6 @@ dependencies {
     compile group: 'com.h2database', name: 'h2', version: '1.4.191'
 }
 
-applicationName = 'sfctechnologyapp'
+applicationName = 'saftechnologyapp'
 mainClassName = 'App'
 task stage(dependsOn: ['clean', 'installDist'])
